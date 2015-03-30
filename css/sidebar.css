@@ -14,7 +14,6 @@
     z-index: 1000;
     position: fixed;
     left: 200px;
-
     height: 100%;
     margin-left: -200px;
     overflow-y: auto;
@@ -104,10 +103,6 @@
         width: 200px;
     }
 
-    #wrapper.toggled #sidebar-wrapper {
-        width: 0;
-    }
-
     #page-content-wrapper {
         padding: 20px;
         position: relative;
@@ -124,6 +119,13 @@
     top: 20px;
     left: 20px;
     margin-bottom: 30px;
+    z-index: 1000;
+}
+
+.toggled #menu-toggle {
+    left: 220px;
+
+
 }
 
 
