@@ -16,9 +16,6 @@ body {
     background-size: cover;
     height: 500px;
 }
-.jumbotron {
-    background: transparent;
-}
 
 .portrait {
     margin-bottom: 30px;
@@ -59,18 +56,18 @@ body {
 
 .name, .prof {
     color: #fff !important;
-
 }
 
 .name {
     font-weight: 700;
+    font-size: 72px;
     text-transform: uppercase;
     margin: 0;
 }
 
 .prof {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 42px;
     margin-top: 0;
 }
 
