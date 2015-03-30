@@ -39,17 +39,45 @@
 
 
         <!-- Page Content -->
-        <div class="jumbotron">
+        <div id="header-bg">
             <a href="#menu-toggle" class="btn btn-default visible-xs-inline-block" id="menu-toggle">Menu</a>
-        </div>
 
+            <div class="jumbotron">
+                <div class="col-md-5 col-sm-5 col-xs-10 header-info">
+                    <h1 class="name">Allison Grayce</h1>
+                    <h2 class="prof">Creative Web Designer</h2>
+                </div>
+            </div>
+        </div><!-- end header-bg -->
 
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-md-8">
-                        <img id="portrait" src="img/allisongrayce.jpg">
-                        <h1>Emily Ellis</h1>
+                <section class="row profile">
+                    <div class="col-xs-12 col-md-12">
+                        <h1>Profile</h1>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-lg-2">
+                        <img class="portrait" src="img/allisongrayce.jpg">
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-lg-2">
+                        <h3>Personal Info</h3>
+                        <table class="table table-condensed">
+                            <tr>
+                                <td>Name: Allison Grayce</td>
+                            </tr>
+                            <tr>
+                                <td>Age: 23 Year Old</td>
+                            </tr>
+                            <tr>
+                                <td>Phone: +123-456-789</td>
+                            </tr>
+                            <tr>
+                                <td>Email: my@site.com</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-8">
+                        <h3>My Story</h3>
                         <p>
                             Lorem ipsum dolor sit amet, duo te minim signiferumque. Eum agam mazim te, ad est utamur
                             tritani, ex per vocibus admodum. Consulatu definiebas argumentum sed an, cum brute quando
@@ -57,7 +85,8 @@
                             liberavisse reprehendunt no, impedit senserit theophrastus eu sea.
                         </p>
                     </div>
-                </div>
+
+                </section>
             </div>
         </div>
         <!-- end page-content-wrapper -->
