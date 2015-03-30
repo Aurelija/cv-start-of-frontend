@@ -1,7 +1,6 @@
 .jumbotron {
-    background: url("../img/header-bg.jpg") no-repeat;
-    background-size: 100% auto;
-    height: 400px;
-    min-height: 220px;
+    background: url("../img/header-bg.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
 
 }
