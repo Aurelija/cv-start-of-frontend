@@ -5,6 +5,10 @@ body {
 #header-bg {
     background: url("../img/header-bg.jpg") no-repeat center center;
     background-size: cover;
+
+}
+
+#header-bg, section {
     min-height: 100vh;
 }
 
